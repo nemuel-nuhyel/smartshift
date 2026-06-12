@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Build output
+dist/
+build/
+public/build/
+public/hot
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs and runtime caches
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.phpunit.result.cache
+.phpunit.cache/
+coverage/
+
+# Laravel generated files
+public/storage
+storage/*.key
+storage/pail/
+
+# Local tooling
+.codex/
+.cursor/
+.idea/
+.nova/
+.vscode/
+.zed/
+.phpactor.json
+auth.json
+_ide_helper.php
+
+# OS files
+.DS_Store
+Thumbs.db

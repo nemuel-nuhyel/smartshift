@@ -241,7 +241,7 @@ Workers can view their assigned shifts, track assigned tasks, update allowed tas
 
 ## Design Notes
 
-The frontend uses Tailwind CSS only, with shared React components for panels, metrics, form controls, badges, and app layout. The dashboard is responsive across desktop and mobile and is built to present well in an internship portfolio or GitHub project review.
+The frontend uses Tailwind CSS only, with shared React components for panels, metrics, form controls, badges, and app layout. The dashboard is responsive across desktop and mobile.
 
 ## Security And Validation
 
@@ -251,24 +251,12 @@ The frontend uses Tailwind CSS only, with shared React components for panels, me
 - Shift assignment rules prevent capacity overflow and overlapping worker assignments.
 - Task assignment is restricted to workers assigned to the related shift.
 
-## Notes For GitHub
-
-Generated build output such as `client/dist/` is not required in the repository. It can be recreated with:
 
 ```bash
 cd client
 npm run build
 ```
 
-Recommended files to keep out of version control:
-
-```text
-client/node_modules/
-client/dist/
-server/vendor/
-server/.env
-server/database/database.sqlite
-```
 
 ## Author
 
